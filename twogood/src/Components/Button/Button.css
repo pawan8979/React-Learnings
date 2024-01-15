@@ -1,0 +1,42 @@
+/* Equivalent CSS for the provided Tailwind CSS classes */
+.custom-button {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #8B4513;
+  border-radius: 9999px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #8B4513;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  width: 200px;
+}
+
+.custom-button::before {
+  content: '';
+  position: absolute;
+  background-color: #8B4513;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  transition: height 0.2s ease-in-out;
+}
+
+.custom-button:hover::before {
+  height: 100%;
+}
+
+.custom-button:hover {
+  color: #FFF; /* Cream text color */
+}
+
+/* Styling the child elements */
+.custom-text{
+  position: relative;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+

@@ -1,0 +1,28 @@
+@import url("../../fonts/Futura/Futura.css");
+
+#videoContainer{
+    height: 100vh;
+    width: 100%;
+    margin-top: 1vw;
+    position: relative;
+    cursor: pointer;
+
+    video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #play{
+        background-color: black;
+        color:#fff;
+        font-size: 1.3vw;
+        position:fixed;
+        padding:  3vw 2.2vw;
+        text-transform: uppercase;
+        font-family: Futura;
+        border-radius: 50%;
+        opacity: 0;
+        scale: 0;
+    }
+}

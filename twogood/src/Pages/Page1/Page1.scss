@@ -1,0 +1,19 @@
+@import url("../../fonts/Helvetica/Helvetica.css");
+@import url("../../fonts/Futura/Futura.css");
+
+#page1{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 1vw;
+    padding-top: 30vh;
+    h1{
+        font-size: 15.8vw;
+        text-transform: uppercase;
+        font-family: Futura;
+        line-height: 14vw;
+        letter-spacing: -8px;
+        white-space: nowrap;
+    }
+}
+
