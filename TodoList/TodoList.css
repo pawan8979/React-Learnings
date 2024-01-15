@@ -1,0 +1,21 @@
+.todo-list {
+  background-color: lightgray;
+  width: 40%;
+  height: 40vh;
+  margin: auto;
+  padding: 30px;
+}
+
+.heading-wrapper {
+  margin: 10px 0 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+.head-btn {
+  padding: 10px;
+}
